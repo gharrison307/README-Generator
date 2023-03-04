@@ -1,6 +1,7 @@
 // Requirements
 const inquirer = require("inquirer");
 const fs = require("fs");
+const { Console } = require("console");
 
 // Code
 
@@ -11,7 +12,7 @@ inquirer
     {
       type: "input",
       message: "What is your project title?",
-      name: "name",
+      name: "title",
     },
     {
       type: "input",
@@ -36,12 +37,7 @@ inquirer
     {
       type: "input",
       message: "Please enter the test instructions.",
-      name: "contributions",
-    },
-    {
-      type: "input",
-      message: "Please enter the contribution guidelines.",
-      name: "contributions",
+      name: "testInstructions",
     },
     {
       type: "list",
@@ -67,14 +63,62 @@ inquirer
     {
       type: "input",
       message: "What is your GitHub username?",
-      name: "username",
+      name: "userName",
     },
     {
       type: "input",
       message: "What is your email?",
-      name: "username",
+      name: "email",
     },
   ])
-
+  .then((data) => {
+    fs.writeFile("../README.md", createFile.createFile(data));
+  })
   //   test console log
   .then((response) => console.log("Success!"));
+
+function createFile(data) {
+  const {
+    title,
+    description,
+    installInstructions,
+    usageInformation,
+    contributions,
+    testInstructions,
+    license,
+    userName,
+    email,
+  } = data;
+
+  return `
+  
+  # ${title}   
+  
+  
+  ## Description
+
+  ${description}
+
+
+  #Table of Contents
+
+
+  ##Installation
+
+  ##Usage
+
+  ##Contributors
+
+  ##Test Information
+
+  ##License Information
+
+
+  ##Question or Comments?
+
+  Please reach out with any questions or concerns.
+
+  Github Username: ${username}
+  Email: ${email}
+ `;
+}
