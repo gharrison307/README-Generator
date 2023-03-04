@@ -104,20 +104,20 @@ function createFile(data) {
 
   #Table of Contents
 
-  [Installation Information](#installInstructions)
+  [Installation Information](#installInstructions)  
 
-  [Usage Infromation](#usageInformation)
+  [Usage Infromation](#usageInformation)  
 
-  [Contributions Information](#contributions)
+  [Contributions Information](#contributions)  
 
-  [Test Information](#testInstructions)
+  [Test Information](#testInstructions)  
 
-  [License Information](#license)
-  
-  [Contact Information](#contactMe)
+  [License Information](#license)  
+
+  [Contact Information](#contactMe)  
 
   <a name="installinstructions"></a>
-  ##Installation
+  ## Installation
   ${installInstructions}
 
 
@@ -126,7 +126,7 @@ function createFile(data) {
 
 
   <a name="usage"></a>
-  ##Usage
+  ## Usage  
   ${usageInformation}
 
 
@@ -135,7 +135,7 @@ function createFile(data) {
 
 
   <a name="contributions"></a>
-  ##Contributors
+  ## Contributors  
   ${contributions}
 
 
@@ -144,7 +144,7 @@ function createFile(data) {
 
 
   <a name="testInstructions"></a>
-  ##Test Information
+  ## Test Information  
   ${testInstructions}
 
 
@@ -153,7 +153,7 @@ function createFile(data) {
 
 
   <a name="license"></a>
-  ##License Information
+  ## License Information  
 
   This project uses ${license}.
 
@@ -163,11 +163,11 @@ function createFile(data) {
 
 
   <a name="contactMe"></a>
-  ##Question or Comments?
+  ## Question or Comments?  
 
-  Please reach out with any questions or concerns.
+  Please reach out with any questions or concerns.  
 
-  Github Username: ${userName}
+  Github Username: ${userName}  
   Email: ${email}
  `;
 }
