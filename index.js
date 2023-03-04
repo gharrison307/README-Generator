@@ -72,10 +72,12 @@ inquirer
     },
   ])
   .then((data) => {
-    fs.writeFile("../README.md", createFile.createFile(data));
-  })
-  //   test console log
-  .then((response) => console.log("Success!"));
+    fs.writeFile("../README.md", createFile(data), (error) => {
+      error ? console.log("error") : console.log("Creating your file now.");
+    });
+  });
+
+// Create README file function
 
 function createFile(data) {
   const {
@@ -94,7 +96,7 @@ function createFile(data) {
   
   # ${title}   
   
-  
+  <a name="description"></a>
   ## Description
 
   ${description}
@@ -102,23 +104,72 @@ function createFile(data) {
 
   #Table of Contents
 
+  [Installation Information](#installInstructions)
 
+  [Usage Infromation](#usageInformation)
+
+  [Contributions Information](#contributions)
+
+  [Test Information](#testInstructions)
+
+  [License Information](#license)
+  
+  [Contact Information](#contactMe)
+
+  <a name="installinstructions"></a>
   ##Installation
+  ${installInstructions}
 
+
+
+
+
+
+  <a name="usage"></a>
   ##Usage
+  ${usageInformation}
 
+
+
+
+
+
+  <a name="contributions"></a>
   ##Contributors
+  ${contributions}
 
+
+
+
+
+
+  <a name="testInstructions"></a>
   ##Test Information
+  ${testInstructions}
 
+
+
+
+
+
+  <a name="license"></a>
   ##License Information
 
+  This project uses ${license}.
 
+
+
+
+
+
+  <a name="contactMe"></a>
   ##Question or Comments?
 
   Please reach out with any questions or concerns.
 
-  Github Username: ${username}
+  Github Username: ${userName}
   Email: ${email}
  `;
 }
+
+// License Information Function
