@@ -56,6 +56,7 @@ inquirer
         "GNU Lesser General Public liencese v2.1",
         "Mozilla Public License 2.0",
         "The Unilicense",
+        "None",
       ],
     },
 
@@ -214,6 +215,9 @@ const renderlicenseBadge = (license) => {
       break;
     case "The Unilicense":
       return `[![License: The Unilicense](https://img.shields.io/badge/license-The%20Unilicenselic%20License%202.0-blue)](https://unlicense.org/)`;
+      break;
+    case "None":
+      return ``;
       break;
   }
 };
