@@ -6,7 +6,6 @@ const { Console } = require("console");
 // Code
 
 // Question Code
-
 inquirer
   .prompt([
     {
@@ -91,10 +90,10 @@ function createFile(data) {
     userName,
     email,
   } = data;
-
+  const licenseBadge = renderlicenseBadge(data.license);
   return `
   
-  # ${title}   
+  # ${title}   ${licenseBadge}
   
   <a name="description"></a>
   ## Description
@@ -174,11 +173,12 @@ function createFile(data) {
 
 // License Information Function
 
-const licenseBadge = (license) => {
+const renderlicenseBadge = (license) => {
   switch (license) {
     case "Apache 2.0":
       return `[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)`;
       break;
+
     case "GNU General Public License v3.0":
       return `[![License: GNU General Public License v3.0](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3.0-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
       break;
