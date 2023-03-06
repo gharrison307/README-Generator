@@ -222,6 +222,7 @@ const renderlicenseBadge = (license) => {
   }
 };
 
+// License Description Function
 const renderlicenseDescription = (license) => {
   switch (license) {
     case "Apache 2.0":
