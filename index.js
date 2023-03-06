@@ -1,7 +1,6 @@
 // Requirements
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { Console } = require("console");
 
 // Code
 
@@ -25,7 +24,7 @@ inquirer
     },
     {
       type: "input",
-      message: "Please enter the usage infromation.",
+      message: "Please enter the usage information.",
       name: "usageInformation",
     },
     {
