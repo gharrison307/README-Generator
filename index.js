@@ -193,7 +193,7 @@ const renderlicenseBadge = (license) => {
       return `[![License: BSD 3-Clause New or Revised License](https://img.shields.io/badge/license-BSD%203--Clause%20New%20or%20Revised%20License-blue)](https://choosealicense.com/licenses/bsd-3-clause/)`;
       break;
     case "Boost Software License 1.0":
-      return `[![License: Boost Sofetware License 1.0](https://img.shields.io/badge/license-Boost%20Sofetware%20License%201.0-blue)](https://www.boost.org/LICENSE_1_0.txt)`;
+      return `[![License: Boost Sofetware License 1.0](https://img.shields.io/badge/license-Boost%20Software%20License%201.0-blue)](https://www.boost.org/LICENSE_1_0.txt)`;
       break;
     case "Creative Commons Zero v1.0 Universal":
       return `[![License: Creative Commons Zero v1.0 Universal](https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-blue)](https://creativecommons.org/publicdomain/zero/1.0/)`;
