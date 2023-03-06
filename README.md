@@ -1,78 +1,62 @@
+# README-Generator [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-  
-  # hey   
-  
-  <a name="description"></a>
-  ## Description
+<a name="description"></a>
 
-  sadjksdahfdas adf adf sdaf sdafsdaf adfa fd adfiadjf;ajd sa;dflkj adlfkj ad;fkj alfkdj a;ldkfj aldkfj sad;lkfj sdalkfj as;ldfkj;weij f;lkndc' a;ocn;aoincalskmc kldamc sklmc nf ad'sofj a;ldkfas;dkl fj;lkjsafk;ljfhdljkf hSA;L HDA;JKF H;akjfh lkaj fhADsaasdlfigDF'
+## Description
 
+This project utilizes node.js and the command line to create a README.md file based on user inputs.
 
-  #Table of Contents
+Github Repository: https://github.com/gharrison307/README-Generator
 
-  [Installation Information](#installInstructions)  
+# Table of Contents
 
-  [Usage Infromation](#usageInformation)  
+[Installation Information](#installInstructions)
 
-  [Contributions Information](#contributions)  
+[Usage Infromation](#usageInformation)
 
-  [Test Information](#testInstructions)  
+[Contributions Information](#contributions)
 
-  [License Information](#license)  
+[Test Information](#testInstructions)
 
-  [Contact Information](#contactMe)  
+[License Information](#license)
 
-  <a name="installinstructions"></a>
-  ## Installation
-  alfdkjSHALKDHVBa;ksjdAS Dsakjd hSAKLJDH askhd LAKHaklsjd hKLAJSHD KLsjadh AKLSJ HDklasjgd SALKGDlahfxuYLVX ILAYS gdIAHD Bsklaj 
+[Contact Information](#contactMe)
 
+<a name="installinstructions"></a>
 
+## Installation
 
+This is where installation instructions would be provided.
 
+<a name="usage"></a>
 
+## Usage
 
-  <a name="usage"></a>
-  ## Usage  
-  lihcga ;icbSOJUHDiuSGAIHDKGa;ihbSAOJDHAGkjgbc:ZKJCUHA"OUfbojaGHCa;uogb;caojfg;OUASGDasjogSUIOABX;ausgd;kjasbdg;AHGD;Jasghd;kJGASDKNJGa;kxuguoGBG;UOB;awd
+This is where usage information would be provided.
 
+<a name="contributions"></a>
 
+## Contributors
 
+This is where the project contributors would be provided.
 
+<a name="testInstructions"></a>
 
+## Test Information
 
-  <a name="contributions"></a>
-  ## Contributors  
-  LASIUDGLAKJDH;ojshdAS
+This is where the test instructions would be provided.
 
+<a name="license"></a>
 
+## License Information
 
+This project utilizes the Apache 2.0 License. Please see [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for more information.
 
+<a name="contactMe"></a>
 
+## Question or Concerns?
 
-  <a name="testInstructions"></a>
-  ## Test Information  
-  ;IHasgd;oUSAGHD;ajhd;ASODH;asoudgA;SOIDASJHDHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Please reach out with any questions or concerns.
 
-
-
-
-
-
-  <a name="license"></a>
-  ## License Information  
-
-  This project uses Apache 2.0.
-
-
-
-
-
-
-  <a name="contactMe"></a>
-  ## Question or Comments?  
-
-  Please reach out with any questions or concerns.  
-
-  Github Username: ASdsadAS  
-  Email: asd
- 
+Github Username: gharrison307  
+ Email: This is where a developer would provide their email.
